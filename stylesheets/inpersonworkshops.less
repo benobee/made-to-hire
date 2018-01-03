@@ -1,0 +1,71 @@
+/* IN PERSON WORKSHOPS*/
+
+#collection-5a3be6f99140b7052a6c0537 {
+    .sqs-row {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: no-wrap;
+        @media screen and (max-width: 768px) {
+            flex-wrap:wrap;
+            .col {
+                flex: 1 1 100% !important;
+            }
+        }
+    }
+    .sqs-col-5 {
+        .product-title,
+        .sqs-money-native {
+            font-weight: 600;
+            margin-top: 0;
+        }
+        flex:1 1 auto;
+        border:2px solid black;
+        margin:0.5em 2em;
+        padding:1em;
+        .summary-v2-block {
+            padding: 0;
+        }
+        .summary-item {
+            padding: 1em;
+            margin-top: 1em;
+            background: @grey;
+            .summary-title {
+                font-size: 1.3em;
+                line-height: 1.4em;
+                display: inline-block;
+                margin: 0em 0px 1.2em;
+                font-weight: 900 !important;
+                pointer-events: none;
+            }
+            .summary-excerpt {
+                p {
+                    font-size: 1em;
+                }
+                a {
+                    margin-top: 1em;
+                    line-height: 58px;
+                    background: black;
+                    color: white;
+                    padding: 0.8em 3em;
+                    .custom-button;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .product-block {
+            margin-top: 1em;
+            background: @grey;
+        }
+        strong {
+            font-weight: 900 !important;
+        }
+        border-radius:8px;
+        .sqs-block-html {
+            border-bottom: 2px solid black;
+        }
+    }
+    .sqs-add-to-cart-button {
+        background: black;
+        .custom-button;
+    }
+}

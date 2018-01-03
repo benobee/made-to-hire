@@ -1,0 +1,32 @@
+/* ONLINE COURSE */
+
+#collection-5a3831d171c10b467b5e2b16 {
+    .sqs-row {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: no-wrap;
+        @media screen and (max-width: 768px) {
+            flex-wrap:wrap;
+            .col {
+                flex: 1 1 100%;
+            }
+        }
+    }
+    .sqs-col-5 {
+        flex: 1 1 auto;
+        border: 2px solid black;
+        padding: 1em;
+        border-radius: 8px;
+        margin: 0.5em 2em;
+        .sqs-block {
+            &:nth-child(1) {
+                strong {
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+    .sqs-add-to-cart-button {
+        .custom-button;
+    }
+}

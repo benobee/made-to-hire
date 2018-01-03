@@ -1,0 +1,65 @@
+/* THE METHOD */
+
+#collection-5a304303085229ae796d8a28 {
+    @height: 400px;
+    #made-to-hire-method {
+        .Index-page-content {
+            max-width: 100%;
+            padding: 0;
+        }
+        #page-5a38317be4966b79a0f2dd54 {
+            @media screen and (max-width: 768px) {
+                * {
+                    font-size:16px !important;
+                }
+                @height: 100% !important;
+                .image-card-wrapper {
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+            .sqs-col-12 {
+                .sqs-block-image {
+                    &:nth-child(odd) {
+                        img {
+                            object-position: 80% 50%;
+                        }
+                    }
+                    &:nth-child(even) {
+                        img {
+                            object-position: 40% 50%;
+                        }
+                    }
+                }
+            }
+        }
+        .sqs-block-image {
+            padding-bottom: 0;
+        }
+        .design-layout-collage {
+            overflow: hidden;
+            max-height: @height;
+            min-height: 300px;
+            .intrinsic {
+                left: 0 !important;
+                @media screen and (max-width: 768px) {
+                    width:100% !important;
+                }
+                min-height: 300px;
+                .content-fit {
+                    display: flex;
+                    max-height: @height;
+                    min-height: 300px;
+                    img {
+                        object-fit: cover;
+                    }
+                }
+            }
+            .image-card {
+                margin: 2em;
+                border-radius: 8px;
+            }
+        }
+    }
+}

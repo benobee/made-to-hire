@@ -29,7 +29,7 @@ const isProduction = JSON.parse(process.env.PROD_ENV ? true : false);
 /***************************************/
 const input = {
     context: __dirname,
-    entry: ['./main.js', './main.less'],
+    entry: ['./main.less'],
     devtool: isProduction ? '' : 'eval',
     node: {
         dns: 'mock',

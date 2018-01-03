@@ -1,0 +1,39 @@
+/* ABOUT */
+
+#collection-5a3042f953450a138b305e0d {
+    label {
+        text-align: center;
+        font-size: 0.7em;
+        width: 100%;
+        font-weight: 800;
+    }
+    h3 {
+        transition: color 0.4s;
+        color: @red;
+    }
+    .link-wrapper {
+        &:hover {
+            * {
+                color: black;
+            }
+            .number {
+                background: black;
+            }
+        }
+        .number {
+            transition: background 0.4s;
+            background: @red;
+            @circleSize: 40px;
+            width: @circleSize;
+            text-align: center;
+            height: @circleSize;
+            line-height: @circleSize;
+            border-radius: 50%;
+            color: white;
+        }
+        a {
+            color: black;
+            border-bottom: none;
+        }
+    }
+}

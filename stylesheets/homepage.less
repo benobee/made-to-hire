@@ -1,0 +1,77 @@
+/* HOME PAGE*/
+
+#home-banner {
+    .sqs-block-markdown {
+        @media screen and (min-width: 768px) {
+            max-width:380px;
+        }
+        red {
+            color: @red;
+        }
+    }
+    /* VIDEO*/
+    #block-yui_3_17_2_22_1514576875130_19171 {
+        .summary-item {
+            .sqs-video-overlay {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -34%);
+                .sqs-video-icon {
+                    max-height: 30px;
+                    background-size: contain;
+                }
+            }
+            .summary-thumbnail-container {
+                cursor: pointer;
+                background: @red;
+                position: relative;
+                .custom-button;
+                max-width: 130px;
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+#home-content {
+    .Index-page-content {
+        max-width: 100%;
+        padding-top: 0;
+    }
+    .sqs-col-4 {
+        @media screen and (max-width: 768px) {
+            width:100% !important;
+            * {
+                max-width: 100% !important;
+                font-size: 1em !important;
+            }
+        }
+    }
+    .design-layout-inline {
+        margin-bottom: 1em;
+        a {
+            text-decoration: none !important;
+            border-bottom: none;
+        }
+        .image-caption-wrapper {
+            background: @redTransparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            .image-caption {
+                max-width: 14vw;
+                p {
+                    font-weight: 200;
+                    font-size: 1.3vw;
+                    text-align: center;
+                    font-family: Nunito !important;
+                    color: white;
+                }
+            }
+        }
+    }
+}

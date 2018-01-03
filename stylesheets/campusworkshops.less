@@ -1,0 +1,45 @@
+/* CAMPUS WORKSHOPS*/
+
+#collection-5a3831c7652dea7bc23ef255 {
+    .sqs-row {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: no-wrap;
+        @media screen and (max-width: 768px) {
+            flex-wrap:wrap;
+            .col {
+                flex: 1 1 100%;
+            }
+        }
+    }
+    .sqs-col-5 {
+        flex: 1 1 auto;
+        border: 2px solid black;
+        padding: 2em;
+        border-radius: 8px;
+        margin: 0.5em 2em;
+        .sqs-block {
+            &:nth-child(1) {
+                padding: 1.5em;
+                padding-bottom: 0;
+            }
+            &:nth-child(2) {
+                padding: 0em;
+                padding-top: 0;
+                .intrinsic {
+                    margin: 0 auto;
+                    max-width: 250px !important;
+                    max-height: 150px !important;
+                    overflow: hidden;
+                }
+                img {
+                    width: 100% !important;
+                    height: auto !important;
+                }
+            }
+        }
+    }
+    .sqs-system-button {
+        .custom-button;
+    }
+}
